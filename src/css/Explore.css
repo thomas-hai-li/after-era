@@ -1,3 +1,8 @@
 h3 {
   font-weight: 100;
 }
+
+.Explore-Gallery {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
