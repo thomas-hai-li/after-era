@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Crayawn';
+  src: url('../fonts/Crayawn-v58y.ttf') format('truetype');
+}  
+
+body {
+  font-family: 'Crayawn';
+  font-size: 1.5em;
+  /* background: url(../img/logo1.png); */
+  background-color:rgba(0, 0, 0, 0.1);
+}

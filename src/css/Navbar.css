@@ -1,0 +1,51 @@
+.Navbar {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar-logo {
+  width: 20%;
+}
+
+.Navbar-search {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.Navbar-links {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Navbar-link {
+  text-decoration: none;
+}
+
+.Navbar-link:visited {
+  text-decoration: none;
+}
+
+.Navbar-link {
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.Navbar-link:hover {
+  color: #00c3c6;
+  text-shadow:0px 0px 30px #00c3c6;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.Navbar-link.active {
+  color: #00c3c6;
+  text-shadow:0px 0px 30px #00c3c6;
+}
