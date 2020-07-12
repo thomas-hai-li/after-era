@@ -13,14 +13,24 @@ function Explore(props) {
 
   // create content tiles based on era
   let tiles = []
+  let filteredContent = [];
+  if (era === '90s') {
+    filteredContent = content.filter(item => item.release >= 1990 && item.release < 2000);
+  } else if (era === '00s') {
+    filteredContent = content.filter(item => item.release >= 2000 && item.release < 2010);
+  } else {
+    filteredContent = content;
+  }
 
-  content.forEach((item, i) => {
-    tiles.push(<ContentTile content={item} key={i} />);
+  console.log(filteredContent);
+
+  filteredContent.forEach((item, i) => {
+    tiles.push(<ContentTile content={item} history={props.history} key={i} />);
   });
 
   return (
     <div className="Explore">
-      <h3>We be explorin {era === 'all' ? 'it all' : `the ${era}`}</h3>
+      <h3>we be explorin' {era === 'all' ? 'it all' : `the ${era}`}</h3>
       <div className="Explore-Gallery">
         {tiles}
       </div>

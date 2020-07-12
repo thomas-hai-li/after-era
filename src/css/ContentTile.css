@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 20px;
+  cursor: pointer;
 
   border-radius:10px;
   border: 1px solid rgba(0, 0, 0, 0.03);
@@ -17,23 +18,23 @@
 }
 
 .ContentTile-Thumbnail {
+  margin: 0px;
   height: 250px;
   border-radius:10px 10px 0px 0px;
-  cursor: pointer;
 }
 
 .ContentTile p {  
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .ContentTile p:hover {
   color: #00c3c6;
   text-shadow:0px 0px 100px #00c3c6;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  -webkit-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
 }

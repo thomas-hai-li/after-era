@@ -1,0 +1,26 @@
+.GalleryView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.GalleryView-Spotlight {
+  width: 100vh;
+}
+
+.GalleryView-Selection {
+  display: flex;
+  justify-content: center;
+}
+
+.GalleryView-Selection > img.active {
+  opacity: 1;
+}
+
+.GalleryView-Selection > img {
+  height: 50px;
+  margin: 10px;
+  opacity: 0.2;
+  cursor: pointer;
+}

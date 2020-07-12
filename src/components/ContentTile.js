@@ -3,16 +3,17 @@ import '../css/ContentTile.css';
 
 function ContentTile(props) {
 
-  const { title, type, era, release, thumbnail } = props.content;
+  const { title, type, release, thumbnail } = props.content;
 
-  console.log(title)
-  console.log(type)
-  console.log(era)
-  console.log(release)
-  console.log(thumbnail)
+  const handleOnClick = e => {
+    props.history.push({
+      pathname: `/explore/${title.toLowerCase()}`,
+      state: { content: props.content }
+    });
+  }
 
   return (
-    <div className='ContentTile'>
+    <div className='ContentTile' onClick={handleOnClick}>
       <img className='ContentTile-Thumbnail' src={thumbnail} alt={`${title} thumbnail`} />
       <p>Title: <span className="ContentTile-info">{title}</span></p>
       <p>Type: <span className="ContentTile-info">{type}</span></p>

@@ -14,7 +14,7 @@ function Navbar() {
       </div>
       <div className="Navbar-links">
         <NavLink className="Navbar-link" exact to="/">home</NavLink>
-        <NavLink className="Navbar-link" to="/explore">explore all</NavLink>
+        <NavLink className="Navbar-link" to="/explore">explore</NavLink>
         <NavLink className="Navbar-link" to="/help">help</NavLink>
       </div>
     </div>
