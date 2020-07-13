@@ -30,7 +30,7 @@ function Explore(props) {
 
   return (
     <div className="Explore">
-      <h3>we be explorin' {era === 'all' ? 'it all' : `the ${era}`}</h3>
+      <h3>exploring {era === 'all' ? 'it all' : `the ${era}`}</h3>
       <div className="Explore-Gallery">
         {tiles}
       </div>

@@ -6,8 +6,8 @@ const content = [
     release: 1996,
     thumbnail: require('../img/arthur/4.gif'),
     imgSrcs: [
-      require('../img/arthur/1.png'),
       require('../img/arthur/2.gif'),
+      require('../img/arthur/1.png'),
       require('../img/arthur/3.jpg'),
       require('../img/arthur/4.gif')
     ]

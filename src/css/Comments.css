@@ -8,12 +8,25 @@
   text-decoration: underline;
 }
 
+.NewCommentSection {
+  display: flex;
+}
+
+.NewCommentSection > * {
+  margin: 1px;
+}
+
 .NewComment-Content {
-  width: 70%;
+  width: 60%;
 }
 .NewComment-Name {
   width: 29%;
+}
+
+.NewComment-Submit {
+  /* display: inline; */
   float: right;
+  width: 10%;
 }
 
 .NewComment-Content,

@@ -9,6 +9,7 @@ function Comments(props) {
       <div className="NewCommentSection">
         <input className='NewComment-Content' type="text" placeholder="your thoughts" />
         <input className='NewComment-Name' type="name" placeholder="your name" autoComplete="off" />
+        <button className='NewComment-Submit'>submit</button>
       </div>
     </div>
   );
