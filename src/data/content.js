@@ -1,7 +1,7 @@
 const content = [
   {
     title: 'Arthur',
-    type: 'tv show',
+    type: 'tvshow',
     era: '90s',
     release: 1996,
     thumbnail: require('../img/arthur/4.gif'),
@@ -14,7 +14,7 @@ const content = [
   },
   {
     title: 'Windows 98',
-    type: 'operating system',
+    type: 'os',
     era: '90s',
     release: 1998,
     thumbnail: require('../img/windows98/thumbnail.gif'),
@@ -38,7 +38,7 @@ const content = [
   },
   {
     title: 'Jimmy Neutron: Boy Genius',
-    type: 'tv show',
+    type: 'tvshow',
     era: '00s',
     release: 2002,
     thumbnail: require('../img/jimmyneutron/thumbnail.webp'),
@@ -53,7 +53,7 @@ const content = [
   },
   {
     title: 'PlayStation 2',
-    type: 'game console',
+    type: 'gameconsole',
     era: '00s',
     release: 2000,
     thumbnail: require('../img/ps2/thumbnail.gif'),
@@ -66,7 +66,7 @@ const content = [
   },
   {
     title: 'Windows XP',
-    type: 'operating system',
+    type: 'os',
     era: '00s',
     release: 2001,
     thumbnail: require('../img/windowsxp/thumbnail.gif'),

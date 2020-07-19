@@ -41,6 +41,7 @@
 }
 
 .Navbar-link {
+  color: #551a8b;
   -moz-transition: all 0.1s ease-in;
   -o-transition: all 0.1s ease-in;
   -webkit-transition: all 0.1s ease-in;

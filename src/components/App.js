@@ -18,11 +18,11 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar />
+        <Navbar hasLanguageSelector={true} />
         <Route exact path='/' component={Home} />
         <Route exact path='/explore' component={Explore} />
         {contentRoutes}
-        <Navbar />
+        <Navbar hasLanguageSelector={false} />
       </div>
     </BrowserRouter>
   );

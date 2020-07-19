@@ -1,0 +1,40 @@
+{
+  "Navbar": {
+    "home": "home",
+    "explore": "erkunden",
+    "help": "hilfe",
+    "search": "suche"
+  },
+  "Home": {
+    "1": "wieder besuchen",
+    "2": "dein favorit",
+    "3": "epoche",
+    "4": "erkunden",
+    "5": "alles",
+    "6": "Go"
+  },
+  "Content": {
+    "title": "Titel",
+    "type": "Art",
+    "release": "Jahr",
+    "details": "beschreibung",
+    "tvshow": "fernsehsendung",
+    "toy": "spielzeug",
+    "gameconsole": "spielkonsole",
+    "os": "betriebssystem"
+  },
+  "Exploring": {
+    "all": "alles erkunden",
+    "90s": "erkundung der 90s",
+    "00s": "erkundung der 00s",
+    "goback": "ruckkehr"
+  },
+  "Comments": {
+    "header": "hinterlasse einen offentlichen kommentar",
+    "submit": "einreichen",
+    "placeholder": {
+      "newCommentContent": "dein gedanken",
+      "newCommentName": "dein name"
+    }
+  }
+}

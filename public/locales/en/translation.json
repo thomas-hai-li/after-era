@@ -1,0 +1,40 @@
+{
+  "Navbar": {
+    "home": "home",
+    "explore": "explore",
+    "help": "help",
+    "search": "search"
+  },
+  "Home": {
+    "1": "revisit",
+    "2": "your favorite",
+    "3": "era",
+    "4": "explore",
+    "5": "all",
+    "6": "Go"
+  },
+  "Content": {
+    "title": "Title",
+    "type": "Type",
+    "release": "Release",
+    "details": "details",
+    "tvshow": "tv show",
+    "toy": "toy",
+    "gameconsole": "game console",
+    "os": "operating system"
+  },
+  "Exploring": {
+    "all": "exploring it all",
+    "90s": "exploring the 90s",
+    "00s": "exploring the 00s",
+    "goback": "go back"
+  },
+  "Comments": {
+    "header": "leave a public comment",
+    "submit": "submit",
+    "placeholder": {
+      "newCommentContent": "your thoughts",
+      "newCommentName": "your name"
+    }
+  }
+}
