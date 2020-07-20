@@ -41,3 +41,18 @@
 .NewComment-Name:focus {
   outline: none;
 }
+
+.CommentBlock {
+  margin: 10px 0px;
+  border: solid 1px grey;
+  border-radius: 10px;
+}
+
+.CommentBlock-Content,
+.CommentBlock-Name {
+  margin: 5px;
+}
+
+.CommentBlock-Content {
+  word-wrap: break-word;
+}

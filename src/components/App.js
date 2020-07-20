@@ -1,11 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import content from '../data/content';
 import '../css/App.css';
 import Navbar from './Navbar';
 import Home from '../views/Home';
 import Explore from '../views/Explore';
 import ContentGallery from '../views/ContentGallery';
+import FourOhFour from '../views/FourOhFour';
 
 function App() {
 
@@ -19,9 +20,12 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar hasLanguageSelector={true} />
-        <Route exact path='/' component={Home} />
-        <Route exact path='/explore' component={Explore} />
-        {contentRoutes}
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/explore' component={Explore} />
+          {contentRoutes}
+          <Route component={FourOhFour} />
+        </Switch>
         <Navbar hasLanguageSelector={false} />
       </div>
     </BrowserRouter>

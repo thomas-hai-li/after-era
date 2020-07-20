@@ -10,22 +10,6 @@
   width: 20%;
 }
 
-.Navbar-search {
-  width: 20%;
-  display: flex;
-  justify-content: center;
-}
-
-.Navbar-search input {
-  border: 0;
-  border-bottom: 1px solid #ccc;
-  background-color:rgba(0, 0, 0, 0.1);
-}
-
-.Navbar-search input:focus {
-  outline: none;
-}
-
 .Navbar-links {
   width: 20%;
   display: flex;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import content from '../data/content';
 import ContentTile from '../components/ContentTile';
@@ -6,7 +6,13 @@ import '../css/Explore.css';
 
 function Explore(props) {
 
+  const [searchText, setSearchText] = useState('');
   const { t } = useTranslation();
+
+  const onSearchTextChange = (e) => {
+    let search = e.target.value.toLowerCase();
+    setSearchText(search);
+  }
 
   // parse url query params
   const search = props.history.location.search;
@@ -14,9 +20,8 @@ function Explore(props) {
   let era = params.get('era');
   if (!era) { era = 'all'; }
 
-  // create header and content tiles based on era
+  // create header and filter content based on era
   let header = "";
-  let tiles = []
   let filteredContent = [];
   if (era === '90s') {
     header = t('Exploring.90s');
@@ -29,8 +34,13 @@ function Explore(props) {
     filteredContent = content;
   }
 
-  console.log(filteredContent);
+  // filter content based on search text
+  if (searchText) {
+    filteredContent = filteredContent.filter(item => item.title.toLowerCase().startsWith(searchText));
+  }
 
+  // create content tiles based on filtered content
+  let tiles = [];
   filteredContent.forEach((item, i) => {
     tiles.push(<ContentTile content={item} history={props.history} key={i} />);
   });
@@ -38,9 +48,14 @@ function Explore(props) {
   return (
     <div className="Explore">
       <h3>{header}</h3>
-      <div className="Explore-Gallery">
-        {tiles}
+      <div className="Explore-Search">
+        <input type="search" onChange={onSearchTextChange} placeholder={t('Navbar.search')} />
       </div>
+      {(tiles.length === 0) ? <h3 className="Explore-NoResults">no content found :(</h3> :
+        <div className="Explore-Gallery">
+          {tiles}
+        </div>
+      }
     </div>
   );
 }

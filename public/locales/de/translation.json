@@ -3,7 +3,7 @@
     "home": "home",
     "explore": "erkunden",
     "help": "hilfe",
-    "search": "suche"
+    "search": "titel suchen"
   },
   "Home": {
     "1": "wieder besuchen",
@@ -30,11 +30,12 @@
     "goback": "ruckkehr"
   },
   "Comments": {
-    "header": "hinterlasse einen offentlichen kommentar",
+    "header": "bemerkungen",
     "submit": "einreichen",
     "placeholder": {
       "newCommentContent": "dein gedanken",
       "newCommentName": "dein name"
-    }
+    },
+    "said": "sagte"
   }
 }

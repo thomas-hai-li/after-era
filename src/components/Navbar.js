@@ -17,9 +17,6 @@ function Navbar(props) {
       <div className="Navbar-logo">
         <img src={logo} alt="logo" height='100' draggable='false' />
       </div>
-      <div className="Navbar-search">
-        <input type="search" placeholder={`${t('Navbar.search')} (ie. playstation)`} />
-      </div>
       <div className="Navbar-links">
         <NavLink className="Navbar-link" exact to="/">{t('Navbar.home')}</NavLink>
         <NavLink className="Navbar-link" to="/explore">{t('Navbar.explore')}</NavLink>

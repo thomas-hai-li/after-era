@@ -3,7 +3,7 @@
     "home": "home",
     "explore": "explore",
     "help": "help",
-    "search": "search"
+    "search": "search titles"
   },
   "Home": {
     "1": "revisit",
@@ -30,11 +30,12 @@
     "goback": "go back"
   },
   "Comments": {
-    "header": "leave a public comment",
+    "header": "comments",
     "submit": "submit",
     "placeholder": {
       "newCommentContent": "your thoughts",
       "newCommentName": "your name"
-    }
+    },
+    "said": "said"
   }
 }

@@ -2,6 +2,23 @@
   width: 90%;
 }
 
+.Explore-Search {
+  width: 20%;
+  margin: auto;
+}
+
+.Explore-Search input {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  background-color:rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: auto;
+}
+
+.Explore-Search input:focus {
+  outline: none;
+}
+
 h3 {
   font-weight: 100;
   text-align: center;
@@ -10,4 +27,8 @@ h3 {
 .Explore-Gallery {
   display: grid;
   grid-template-columns: 33% 33% 33%;
+}
+
+.Explore-NoResults {
+  text-align: center;
 }
