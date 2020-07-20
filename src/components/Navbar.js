@@ -20,7 +20,7 @@ function Navbar(props) {
       <div className="Navbar-links">
         <NavLink className="Navbar-link" exact to="/">{t('Navbar.home')}</NavLink>
         <NavLink className="Navbar-link" to="/explore">{t('Navbar.explore')}</NavLink>
-        <NavLink className="Navbar-link" to="/help">{t('Navbar.help')}</NavLink>
+        <span className="Navbar-link" id="help" href="#" onClick={() => props.helpModalToggle(true)} >{t('Navbar.help')}</span>
         <div className="LanguageDropdown" style={props.hasLanguageSelector ? { display: "inline" } : { display: "none" }} >
           <select name="language" id="language" onChange={onLanguageChange}>
             <option value="en">EN</option>
