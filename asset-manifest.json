@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/after-era/static/css/main.015e594f.chunk.css",
+    "main.js": "/after-era/static/js/main.6c1e5851.chunk.js",
+    "main.js.map": "/after-era/static/js/main.6c1e5851.chunk.js.map",
+    "runtime-main.js": "/after-era/static/js/runtime-main.104b4a8b.js",
+    "runtime-main.js.map": "/after-era/static/js/runtime-main.104b4a8b.js.map",
+    "static/js/2.9aea9a2a.chunk.js": "/after-era/static/js/2.9aea9a2a.chunk.js",
+    "static/js/2.9aea9a2a.chunk.js.map": "/after-era/static/js/2.9aea9a2a.chunk.js.map",
+    "index.html": "/after-era/index.html",
+    "precache-manifest.6a0bc6d86fafaab493d35b41e2f3910a.js": "/after-era/precache-manifest.6a0bc6d86fafaab493d35b41e2f3910a.js",
+    "service-worker.js": "/after-era/service-worker.js",
+    "static/css/main.015e594f.chunk.css.map": "/after-era/static/css/main.015e594f.chunk.css.map",
+    "static/js/2.9aea9a2a.chunk.js.LICENSE.txt": "/after-era/static/js/2.9aea9a2a.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/after-era/static/media/1.b30841c8.jpg",
+    "static/media/1.gif": "/after-era/static/media/1.3d1f6aa8.gif",
+    "static/media/1.png": "/after-era/static/media/1.be2b2a7d.png",
+    "static/media/2.gif": "/after-era/static/media/2.7c92135d.gif",
+    "static/media/2.jpg": "/after-era/static/media/2.952025c9.jpg",
+    "static/media/3.gif": "/after-era/static/media/3.f474ab35.gif",
+    "static/media/3.jpg": "/after-era/static/media/3.cfe649b0.jpg",
+    "static/media/4.webp": "/after-era/static/media/4.62e9c296.webp",
+    "static/media/4.gif": "/after-era/static/media/4.6bbae71a.gif",
+    "static/media/4.jpg": "/after-era/static/media/4.97b25367.jpg",
+    "static/media/5.gif": "/after-era/static/media/5.c97da16b.gif",
+    "static/media/6.gif": "/after-era/static/media/6.7a8e6fe8.gif",
+    "static/media/index.css": "/after-era/static/media/Crayawn-v58y.3530ba68.ttf",
+    "static/media/getFetch.cjs": "/after-era/static/media/getFetch.013f0b90.cjs",
+    "static/media/logo1.png": "/after-era/static/media/logo1.9f9dc99f.png",
+    "static/media/thumbnail.webp": "/after-era/static/media/thumbnail.04ce36ef.webp",
+    "static/media/thumbnail.gif": "/after-era/static/media/thumbnail.56ce0022.gif",
+    "static/media/thumbnail.jpg": "/after-era/static/media/thumbnail.d0fcc901.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.104b4a8b.js",
+    "static/js/2.9aea9a2a.chunk.js",
+    "static/css/main.015e594f.chunk.css",
+    "static/js/main.6c1e5851.chunk.js"
+  ]
+}
